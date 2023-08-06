@@ -24,8 +24,6 @@ const Popular = () => {
             setPopular(data.recipes)
             console.log(popular)
         }
-
-
     }
 
     return (
@@ -61,7 +59,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 20rem;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
